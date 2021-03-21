@@ -1,6 +1,13 @@
-    <div class="container footer">
-      <hr>
-      <footer>
+	<style>
+		.container_footer{
+			background-color: #7d8787;
+			color: white;
+			border-top-left-radius: 10;
+			border-top-right-radius: 10;
+			text-shadow: 2px 2px #ff0000;
+		}
+	</style>
+    <div class="container_footer">
         <p align="right">
         <?php
                 if (!isset($_SESSION['username'])) {
