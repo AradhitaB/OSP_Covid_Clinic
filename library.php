@@ -4,11 +4,7 @@
     }
 ?>
 
-<?php
-
-    $connection = new mysqli('localhost', 'root', '', 'hospital');
-
-    
+<?php    
 
     function noAccessForNormal()
     {
