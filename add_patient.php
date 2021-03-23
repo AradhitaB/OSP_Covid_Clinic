@@ -50,13 +50,11 @@
             <div class="form-group">
               <label for="pwd">Doctor Needed:</label>
               <select required value=1 name="apSpecialist">
-                <option value="Audiologist" class="option">Audiologist - Ear Expert</option>
-                <option value="Allergist" class="option">Allergist - Allergy Expert</option>
-                <option value="Anesthesiologist" class="option">Anesthesiologist - Anesthetic Expert</option>
-                <option value="Cardiologist" class="option">Cardiologist - Heart Expert</option>
-                <option value="Dentist" class="option">Dentist - Oral Care Expert</option>
-                <option value="Dermatologist" class="option">Dermatologist - Skin Expert</option>
-                <option value="Endocrinologist" class="option">Endocrinologist - Endocrine Expert</option>
+              <option value="Pulmonologist" class="option">Pulmonologist - Lung specialist </option>
+              <option value="Anesthesiologist" class="option">Anesthesiologist - Anesthetic Expert</option>
+              <option value="Cardiologist" class="option">Cardiologist - Heart Expert</option>
+              <option value="otolaryngologist" class="option">Otolaryngologist - ENT </option>
+          
               </select>
             </div>
 

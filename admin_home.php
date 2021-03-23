@@ -14,8 +14,8 @@
   noAccessForClerk();
   noAccessForDoctor();
   noAccessForNormal();
-
-  noAccessIfNotLoggedIn();
+  
+  noAccessForAdmin();
 
 ?>
 <div class="container">
@@ -82,13 +82,12 @@
         <div class="form-group">
           <label for="pwd">Speciality:</label>
             <select class='form-control' required value=1 name="dSpecialist">
-              <option value="Audiologist" class="option">Audiologist - Ear Expert</option>
-              <option value="Allergist" class="option">Allergist - Allergy Expert</option>
+              <option value="Pulmonologist" class="option">Pulmonologist - Lung specialist </option>
               <option value="Anesthesiologist" class="option">Anesthesiologist - Anesthetic Expert</option>
               <option value="Cardiologist" class="option">Cardiologist - Heart Expert</option>
-              <option value="Dentist" class="option">Dentist - Oral Care Expert</option>
-              <option value="Dermatologist" class="option">Dermatologist - Skin Expert</option>
-              <option value="Endocrinologist" class="option">Endocrinologist - Endocrine Expert</option>
+              <option value="otolaryngologist" class="option">Otolaryngologist - ENT </option>
+              <option value="Nurse" class="option">Nurse</option>
+              <option value="Volunteer" class="option">Volunteer</option>
             </select>
         </div>
 

@@ -6,6 +6,7 @@ session_start();
 <?php 
   include("header.php");
   include("library.php");
+  include("nav-bar.php");
   noAccessIfLoggedIn();
 ?>
 <div class="container">
