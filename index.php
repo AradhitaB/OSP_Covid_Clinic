@@ -31,7 +31,7 @@ session_start();
     unset($_POST);
   ?>
 <div class="row">
-  <div class="col col-xl-6 col-sm-6">
+  <div class="col col-xl-6 col-sm-6" style="background-color: #d4dee8; padding: 5px 10px 48px;">
       <h2>Login</h2>
       <form action="index.php" method="POST">
         <div class="form-group">

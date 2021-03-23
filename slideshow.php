@@ -15,4 +15,4 @@ setInterval(function(){changeImage()}, 3000);
 
 </script>
 
-<p align="center"><img src="images/s1.jpg" class="img-responsive" width="100%" id="slider" align="center"></p>
+<p align="center"><img src="images/s1.jpg" class="img-responsive" style="width:100%; align: center; max-width:650px; max-height:250px" id="slider"></p>
