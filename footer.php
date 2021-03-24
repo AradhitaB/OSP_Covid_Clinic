@@ -1,4 +1,4 @@
-        <footer class="footer text-center" style="background-color:#a5caca; padding:15px;" >
+        <footer class="footer text-center" style="background-color:#a5caca; padding:15px; height: auto;" >
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 mb-5 mb-lg-0">
@@ -26,10 +26,6 @@
         <div class="copyright py-4 text-center text-white" style="background-color: #8888c3; padding: 10px;">
             <div class="container"><small>OSP Review 1<br>COVID-19 Telehealth Clinic</small></div>
         </div>
-        <div class="scroll-to-top d-lg-none position-fixed">
-            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
-        </div>
-		
     </div>
   </body>
 </html>
