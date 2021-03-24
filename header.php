@@ -19,7 +19,6 @@
   }
   .navbar-brand{
     padding: 10px 20px;
-    font-size: 200%;
     font-weight: 900;
     font-stretch: expanded;
     font-family: stencil fantasy;
@@ -27,6 +26,7 @@
   }
   .navbar a{
 	  color: white;
+	  font-size: 1.5rem;
   }
   a:hover{
     color: black;
@@ -49,7 +49,7 @@
   <div class="head">
       <div class="container" style="padding-top: 10px;">
         <nav class="navbar  navbar-static-top">
-          <a href="index.php" class="navbar-brand">OSP PROJECT</a>
+          <a href="index.php" class="navbar-brand" style="font-size: 3rem;">OSP PROJECT</a>
             <ul class="nav nav-pills">
               <li class="nav-item">
                 <!--a href="https://goo.gl/maps/PyT52gM87su" target="_blank"> Address: Plot no- 1, Opposite SBI, Sector 12, Kharghar, Navi Mumbai</a-->
