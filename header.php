@@ -1,52 +1,4 @@
-<?php
-    if (!isset($_SESSION)) {
-        session_start();
-    }
-?>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title> COVID-19 TeleHealth Clinic
-    </title>
-    <link href="bootstrap.min.css" rel="stylesheet">
-    <link href="jumbotron.css" rel="stylesheet">
-    <style>
-  .head{
-    background-color: #8888c3;
-    color: white;
-    padding: 10px 0px;
-    text-shadow: 1px 1px #000000;
-  }
-  .navbar-brand{
-    padding: 10px 20px;
-    font-weight: 900;
-    font-stretch: expanded;
-    font-family: stencil fantasy;
-	font-color: white;
-  }
-  .navbar a{
-	  color: white;
-	  font-size: 1.5rem;
-  }
-  a:hover{
-    color: black;
-	text-shadow: none;
-	font-weight: 500;
-  }
-  body{
-	margin: 0;
-	font-family: Roboto, sans-serif;
-	font-size: 1rem;
-	font-weight: 400;
-	line-height: 1.5;
-	color: #212529;
-	text-align: left;
-	background-color: #fff;
-  }
-  </style>
-  </head>
-  <body>
-  <div class="head">
+<div class="head">
       <div class="container" style="padding-top: 10px;">
         <nav class="navbar  navbar-static-top">
           <a href="index.php" class="navbar-brand" style="font-size: 3rem;">OSP PROJECT</a>
@@ -68,15 +20,6 @@
                 <a href="https://play.google.com/store/apps/details?id=nic.goi.aarogyasetu&hl=en_GB">Arogya Setu App</a>
 
               </li>
-
-             
-
-              <?php
-                if (isset($_SESSION['username'])) {
-                    echo '<li class="nav-item" style="align-items: right;"> <a class="nav-link" href="logout.php">Logout</a>
-                  </li>';
-                }
-              ?>
             </ul>
         </nav>
         </div>

@@ -1,4 +1,4 @@
-        <footer class="footer text-center" style="background-color:#a5caca; padding:15px; height: auto;" >
+		<footer class="footer text-center" style="background-color:--grey; padding:15px; height: auto;" >
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 mb-5 mb-lg-0">
@@ -23,9 +23,8 @@
                 </div>
             </div>
         </footer>
-        <div class="copyright py-4 text-center text-white" style="background-color: #8888c3; padding: 10px;">
-            <div class="container"><small>OSP Review 1<br>COVID-19 Telehealth Clinic</small></div>
+        <div class="copyright py-4 text-center text-white" style="background-color: #007bff; padding: 10px;">
+        <div class="wrap">
+			<div class="container"><small>OSP Review 1<br>COVID-19 Telehealth Clinic</small></div>
         </div>
-    </div>
-  </body>
-</html>
+		</div>
