@@ -104,7 +104,7 @@ body{
 }
 .list_1_of_2  p{
 	font-size:0.8125em;	
-	color: #3391E7;
+	color: --cyan;
 	line-height: 1.5em;
 	font-family: Arial, "Helvetica Neue", "Helvetica", Tahoma, Verdana, sans-serif;
 	padding:0; 	
@@ -219,7 +219,7 @@ body{
 .span_1_of_3  p  {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
-	color: rgb(155, 155, 155);
+	color: --pink;
 	line-height: 1.8em;
 }
 
@@ -260,7 +260,7 @@ body{
 .span_1_of_3 span{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
-	color: #3391E7;
+	color: --cyan;
 	line-height: 1.8em;
 }
 .frist a{
@@ -294,7 +294,7 @@ body{
 	color:#000;
 }
 .second ul li a{
-	color: #3391E7;
+	color: --cyan;
 	margin-bottom: 0.2em;
 	margin-top: 0;
 	font-size:1em;
@@ -325,7 +325,7 @@ body{
 }
 .footer-left ul li a{
 	font-family: 'Ropa Sans', sans-serif;
-	color:rgb(139, 139, 139);
+	color: blue;
 	text-transform: uppercase;
 	display: block;
 	margin-right:10px;
@@ -335,20 +335,20 @@ body{
 }
 .footer-right p{
 	font-family: 'Ropa Sans', sans-serif;
-	color:rgb(139, 139, 139);
+	color:--blue;
 	text-transform: uppercase;
 }
 .footer-right a{
 	text-transform: uppercase;
-	color:rgb(139, 139, 139);
+	color:--blue;
 	font-family: 'Ropa Sans', sans-serif;
 }
 .footer-right a:hover,.footer-left ul li a:hover{
-	color:#3391E7;
+	color:--cyan;
 }
 /*---about---*/
 .about h4,.services h4{
-	color: rgb(139, 139, 139);
+	color: --blue;
 	margin-top: 0;
 	font-size: 2em;
 	font-family: 'Ropa Sans', sans-serif;
@@ -388,7 +388,7 @@ body{
   	text-align: center;
 }
 .span_1_of_5  h3{
-	color: rgb(139, 139, 139);
+	color: --blue;
 	margin-bottom: 0.2em;
 	margin-top: 0;
 	font-size: 1.2em;
@@ -400,7 +400,7 @@ body{
 .span_1_of_5   p {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
-	color: rgb(155, 155, 155);
+	color: --pink;
 	line-height: 1.8em;
 	text-align:left;
 }
@@ -444,7 +444,7 @@ body{
 /*----blog----*/
 .blog-grid-header h3,.blog-grid-header ul li a{
 	font-family: 'Ropa Sans', sans-serif;
-	color: #3391E7;
+	color: --cyan;
 	display: inline-block;
 	font-size:1em;
 	padding: 7px 0px 0px 0px;
@@ -460,13 +460,13 @@ body{
 	padding-right:5px;
 }
 .blog-grid-header ul li a{
-	color:rgb(155, 155, 155);
+	color:--pink;
 }
 .blog-grid-header ul li a:hover{
-	color:#3391E7;
+	color:--cyan;
 }
 .blog-grid h4{
-	color: rgb(139, 139, 139);
+	color: --blue;
 	margin-top: 0;
 	font-size: 2em;
 	font-family: 'Ropa Sans', sans-serif;
@@ -517,7 +517,7 @@ body{
 	display:block;
 }
 .span_2_of_3  h3{
-	color:#575757;
+	color:--indigo;
 	margin-bottom:0.3em;
 	font-size:1.5em;
 	font-family: 'Open Sans', sans-serif;
@@ -528,7 +528,7 @@ body{
 .span_2_of_3  p  {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
-	color: rgb(155, 155, 155);
+	color: --pink;
 	line-height: 1.8em;
 	margin-bottom: 10px;	
 }
@@ -541,7 +541,6 @@ body{
 		font-family: 'Ropa Sans', sans-serif;
 		background: #3285d1;
 		background: -moz-linear-gradient(top, #3285d1 0%, #3285d1 100%);
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3285d1), color-stop(100%,#3285d1));
 		background: -webkit-linear-gradient(top, #3285d1 0%,#3285d1 100%);
 		background: -o-linear-gradient(top, #3285d1 0%,#3285d1 100%);
 		background: -ms-linear-gradient(top, #3285d1 0%,#3285d1 100%);
@@ -627,7 +626,6 @@ body{
 	font-family: 'Ropa Sans', sans-serif;
 	background: #3285d1;
 	background: -moz-linear-gradient(top, #3285d1 0%, #3285d1 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3285d1), color-stop(100%,#3285d1));
 	background: -webkit-linear-gradient(top, #3285d1 0%,#3285d1 100%);
 	background: -o-linear-gradient(top, #3285d1 0%,#3285d1 100%);
 	background: -ms-linear-gradient(top, #3285d1 0%,#3285d1 100%);
@@ -683,7 +681,7 @@ body{
 
 .span_2_of_3  h2,
 .span_1_of_3  h2 {
-	color: rgb(139, 139, 139);
+	color: --blue;
 	margin-top: 0;
 	font-size: 2em;
 	font-family: 'Ropa Sans', sans-serif;
@@ -701,7 +699,7 @@ body{
 .contact-form span{
 	display:block;
 	font-size:1em;
-	color: rgb(139, 139, 139);
+	color: --blue;
 	padding-bottom:5px;
 	font-family: 'Ropa Sans', sans-serif;
 }
@@ -712,7 +710,7 @@ body{
 			background:#fcfcfc;
 			border: none;
 			outline:none;
-			color:rgb(139, 139, 139);
+			color:--blue;
 			font-size:0.8125em;
 			font-family:Arial, Helvetica, sans-serif;
 			box-shadow: inset 0px 0px 3px rgb(199, 199, 199);
@@ -764,7 +762,7 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 	padding: 0.2em 0;
 	font-size: 0.8125em;
-	color: rgb(155, 155, 155);
+	color: --pink;
 	line-height: 1.5em;
 }
 .company_address p span{
@@ -865,7 +863,7 @@ body{
 }
 .erroe-page h3,.erroe-page h4{
 	font-family: 'Ropa Sans', sans-serif;
-	color: rgb(139, 139, 139);
+	color: --blue;
 	text-transform: uppercase;
 	display: block;
 	font-size:10em;
